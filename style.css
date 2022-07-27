@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    color: beige;
+}
+.cabecalho{
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.logo-cabecalho{
+    height: 72px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+   
+}
+
+a{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    border-top: 0.4px solid  #FFF2E7 ;
+    margin-bottom: 30px;
+    
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.conteudo-principal-escrito{
+    
+    display: flex;  /* Para acessar a tecnologia flex box */
+    align-items: center;  /* Para alinhar os elementos referenciados no centro da tela */
+    justify-content: space-around;  /* uma tecnologia do flex box para deixar em linha organizado na tela*/
+
+
+ 
+
+}  
+.nova{
+  
+    
+    display: flex; /* Para acessar a tecnologia flex box */
+    flex-direction: column; /* para colocar os elementos em forma de coluna */
+    gap: 32px; /* para dar um espaçamento em volta dos elementos  */
+    
+}
+
+.conteudo-principal-escrito-titulo{
+    
+    margin: 0; /* é a margim */
+
+    font-family: "righteous", cursive; /*Tipo de fonte */
+    font-weight: 400;/* Peso da fonte */
+    font-size: 64px; /*tamanho da fonte*/
+    color: #FFF2E7; /* cor da fonte*/
+    padding-right: 250px; /*"acolchoamento" para o lado direito */
+    
+    
+}
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'sarala',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+.conteudo-principal-escrito-botao {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+
+    background-color: #ECD6C4;
+    Width: 180px;
+    Height:67px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    transition: filter 1s;
+    
+}
+.conteudo-principal-escrito-botao:hover{
+    filter: brightness(1.2);
+    cursor:pointer;
+   
+}
+
+
+
+.conteudo-principal-escrito-imagem{
+    height: 430px;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 44px;
+}
+.conteudo-secundario-titulo{
+   margin-top: 48px;
+   border-top:  0.4px solid #FFF2E7;
+   padding-top: 48px;
+   font-family: "righteous", cursive;
+   font-weight: 400;
+   font-size: 24px;
+   color: #FFF2E7;
+   margin-bottom: 16px;
+}.conteudo-secundario-paragrafo{
+    font-family: 'sarala',sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+
+}
+.rodape{
+    padding: 32px; ;
+    border-top: 00.4px solid #FFF2E7;
+}
+.logorodape{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
