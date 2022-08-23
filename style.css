@@ -47,12 +47,13 @@ a{
     display: flex;  /* Para acessar a tecnologia flex box */
     align-items: center;  /* Para alinhar os elementos referenciados no centro da tela */
     justify-content: space-around;  /* uma tecnologia do flex box para deixar em linha organizado na tela*/
+    flex-wrap: wrap;
 
 
  
 
 }  
-.nova{
+.conteudo-principal{
   
     
     display: flex; /* Para acessar a tecnologia flex box */
